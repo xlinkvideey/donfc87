@@ -3,154 +3,332 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>POV: I didn’t come to play… I came to be remembered 💅🔥</title>
-
-<meta name="description" content="Exclusive private content with limited access. Click to watch full video.">
-<meta name="keywords" content="private video, exclusive content, premium video, limited access">
-<meta name="robots" content="noindex,nofollow">
-
-<link rel="canonical" href="https://xlinkvideey.github.io/donfc87">
-<link rel="icon" href="https://xlinkvideey.github.io/PrivatePlayHub/xlinkz.jpg">
-
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="Private Video Access">
-<meta property="og:description" content="Exclusive content. Limited access.">
-<meta property="og:image" content="https://xlinkvideey.github.io/PrivatePlayHub/doblex.jpg">
-<meta property="og:url" content="https://xlinkvideey.github.io/donfc87">
-
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Private Video Access">
-<meta name="twitter:description" content="Exclusive private video.">
-<meta name="twitter:image" content="https://xlinkvideey.github.io/PrivatePlayHub/doblex.jpg">
-
-
-<script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "WebPage",
- "name": "Private Video Access",
- "description": "Exclusive limited access video content.",
- "url": "https://xlinkvideey.github.io/donfc87",
- "image": "https://xlinkvideey.github.io/PrivatePlayHub/doblex.jpg"
-}
-</script>
-
+<title>bule edan</title>
 
 <style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
 body{
-margin:0;
-font-family:Arial, sans-serif;
-background:#000;
-color:#fff;
-text-align:center;
+  font-family:Arial,sans-serif;
+  background:#fff;
+  color:#111;
+  min-height:100vh;
+  overflow-x:hidden;
 }
-.container{
-max-width:700px;
-margin:auto;
-padding:20px;
+
+/* HEADER */
+
+.main-header{
+  width:100%;
+  background:#fff;
+  border-bottom:1px solid #eee;
+  position:sticky;
+  top:0;
+  z-index:1000;
 }
+
+.header-container{
+  width:100%;
+  max-width:1200px;
+  margin:auto;
+  padding:12px 16px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.header-left{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.header-title{
+  text-decoration:none;
+  color:#111;
+  font-size:26px;
+  font-weight:700;
+}
+
+.header-upload-btn{
+  text-decoration:none;
+  background:#f3f3f3;
+  color:#111;
+  padding:8px 14px;
+  border-radius:12px;
+  font-size:14px;
+  font-weight:600;
+}
+
+/* VIDEO AREA */
+
+.video-player-wrap{
+  width:100%;
+  max-width:1000px;
+  margin:auto;
+  padding:16px;
+}
+
 .video-box{
-position:relative;
-cursor:pointer;
-margin-top:20px;
+  width:100%;
+  aspect-ratio:16/9;
+  background:#000;
+  border-radius:12px;
+  overflow:hidden;
+  position:relative;
 }
-.thumb{
-width:100%;
-border-radius:10px;
-display:block;
+
+.video-box video{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  background:#000;
 }
-.play-button{
-position:absolute;
-top:50%;
-left:50%;
-transform:translate(-50%,-50%);
-font-size:70px;
-color:white;
-pointer-events:none;
+
+#video-error{
+  position:absolute;
+  inset:0;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-size:18px;
 }
-.cta{
-margin-top:20px;
-background:#ff0000;
-padding:15px;
-border-radius:8px;
-font-size:20px;
-font-weight:bold;
+
+/* BUTTON */
+
+.video-actions{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  margin-top:16px;
 }
-.popup-btn{
-display:block;
-margin-top:15px;
-padding:14px;
-font-weight:bold;
-border-radius:10px;
-text-decoration:none;
-color:#fff;
-background:#0400ff;
-cursor:pointer;
+
+.download-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  background:linear-gradient(90deg,#667eea,#764ba2);
+  color:#fff;
+  padding:14px 28px;
+  border-radius:50px;
+  font-size:17px;
+  font-weight:700;
+  width:100%;
+  max-width:320px;
 }
-.popup-btn:hover{
-opacity:0.9;
+
+/* FOOTER */
+
+footer{
+  width:100%;
+  text-align:center;
+  padding:25px 15px;
+  color:#777;
+  font-size:14px;
+  line-height:1.7;
 }
-img{
-width:100%;
-border-radius:12px;
-filter:blur(8px);
+
+footer a{
+  color:#777;
+  text-decoration:none;
 }
+
+/* FLOAT BANNER */
+
+#donmeg{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:20px 0;
+  overflow:hidden;
+}
+
+#donmeg iframe{
+  max-width:100%;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+  .header-title{
+    font-size:22px;
+  }
+
+  .header-upload-btn{
+    font-size:13px;
+    padding:7px 12px;
+  }
+
+  .video-player-wrap{
+    padding:10px;
+  }
+
+  .video-box{
+    border-radius:8px;
+  }
+
+  .download-btn{
+    font-size:16px;
+    padding:13px 20px;
+  }
+
+}
+
 </style>
 </head>
+
 <body>
-<div class="container">
-<h1>🔥 Trending Video</h1>
+
+<header class="main-header">
+  <div class="header-container">
+
+    <div class="header-left">
+
+      <a href="/" class="header-title">
+        Videy
+      </a>
+
+      <a href="/" class="header-upload-btn">
+        Upload
+      </a>
+
+    </div>
+
+  </div>
+</header>
+
+<div class="video-player-wrap">
+
+  <div class="video-box">
+
+    <video
+      id="video"
+      controls
+      playsinline
+      controlsList="nodownload noplaybackrate"
+      oncontextmenu="return false;">
+    </video>
+
+    <div id="video-error">
+      Video tidak tersedia
+    </div>
+
+  </div>
+
+  <div class="video-actions">
+
+    <a href="#" id="downloadBtn" class="download-btn">
+      DOWNLOAD
+    </a>
+
+  </div>
+
+</div>
+
+<div id="donmeg">
+
+  <script>
+    atOptions = {
+      key : '668912fc9dc8ba6ba14a7fac182d4a20',
+      format : 'iframe',
+      height : 250,
+      width : 300,
+      params : {}
+    };
+  </script>
+
+  <script src="https://www.highperformanceformat.com/668912fc9dc8ba6ba14a7fac182d4a20/invoke.js"></script>
+
+</div>
+
+<footer>
+  Copyright © 2026
+  <br>
+  <a href="#">Terms of Service</a> •
+  <a href="#">Report Abuse</a>
+</footer>
 
 <script>
-  atOptions = {
-    'key' : 'c85a47fab41343c7048cbf9813a41993',
-    'format' : 'iframe',
-    'height' : 60,
-    'width' : 468,
-    'params' : {}
-  };
-</script>
-<script src="https://www.highperformanceformat.com/c85a47fab41343c7048cbf9813a41993/invoke.js"></script>
 
-<div class="video-box" onclick="goAd()">
-<img src="https://cdn.aceimg.com/fb595e0e5.png" class="thumb">
-<div class="play-button">▶</div>
-</div>
-<!-- Button -->
-<a href="javascript:void(0)" class="popup-btn" onclick="goAd()">
-▶ Watch Full Video
-</a>
-<a href="javascript:void(0)" class="popup-btn" onclick="moreVideos()">
-▶ More Videos
-</a>
-</div>
+/* AD LINK */
 
-<script>
-const adLink1="https://www.profitablecpmratenetwork.com/uq35g9cfwq?key=4c20fb6ff053c288f368b40b73680702";
-const adLink2="https://www.profitablecpmratenetwork.com/bpyh2n3u1?key=365cd9a5147798a9f666011d6cbcd8f0";
-let clicked=false;
-function goAd(){
-window.open(adLink1,"_blank");
-}
-function moreVideos(){
-window.open(adLink2,"_blank");
-}
-document.body.addEventListener("click",function(){
-if(!clicked){
-clicked=true;
-window.open(adLink2,"_blank");
-}
+const adLink = atob(
+  "aHR0cHM6Ly93d3cuZWZmZWN0aXZlY3BtbmV0d29yay5jb20vdXEzNWc5Y2Z3cT9rZXk9NGMyMGZiNmZmMDUzYzI4OGYzNjhiNDBiNzM2ODA3MDI"
+);
+
+/* DOWNLOAD BUTTON */
+
+document.getElementById("downloadBtn").addEventListener("click", function(e){
+
+  e.preventDefault();
+  window.location.href = adLink;
+
 });
+
+/* VIDEO */
+
+const video = document.getElementById("video");
+const videoError = document.getElementById("video-error");
+
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+/* NO ID */
+
+if(!id){
+
+  setTimeout(() => {
+
+    window.location.href = adLink;
+
+  }, 1500);
+
+}
+
+/* LOAD VIDEO */
+
+else{
+
+  const base = "https://cdn2.videy.co/" + id;
+
+  loadVideo(base + ".mp4");
+
+  function loadVideo(src){
+
+    video.src = src;
+    video.load();
+
+  }
+
+  video.onerror = function(){
+
+    if(!video.dataset.movTried){
+
+      video.dataset.movTried = "1";
+      loadVideo(base + ".mov");
+
+    }else{
+
+      video.style.display = "none";
+      videoError.style.display = "flex";
+
+    }
+
+  };
+
+}
+
 </script>
-<script async="async" data-cfasync="false" src="https://pl27193626.profitablecpmratenetwork.com/362992b1130cd9d10445afad13488b41/invoke.js"></script>
-<div id="container-362992b1130cd9d10445afad13488b41"></div>
-
-
 <script type="text/javascript">var _Hasync= _Hasync|| [];
-_Hasync.push(['Histats.start', '1,5020319,4,9,110,60,00010000']);
+_Hasync.push(['Histats.start', '1,5026796,4,9,110,60,00010000']);
 _Hasync.push(['Histats.fasi', '1']);
 _Hasync.push(['Histats.track_hits', '']);
 (function() {
@@ -158,8 +336,6 @@ var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async
 hs.src = ('//s10.histats.com/js15_as.js');
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
 })();</script>
-<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5020319&101" alt="" border="0"></a></noscript>
-
-
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5026796&101" alt="" border="0"></a></noscript>  
 </body>
 </html>
